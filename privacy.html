@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NØIR Privacy Policy</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #1c1c1e;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  .meta { color: #6e6e73; font-size: .9rem; margin-bottom: 2rem; }
+  p, li { font-size: .95rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: .4rem; }
+  code { background: #f2f2f4; padding: .1em .35em; border-radius: 4px; font-size: .88em; }
+  address { font-style: normal; }
+  .updated { color: #6e6e73; font-size: .85rem; }
+</style>
+</head>
+<body>
+
+<h1>NØIR Privacy Policy</h1>
+<p class="meta">Effective date: October 10, 2026 &middot; Last updated: October 10, 2026</p>
+
+<p>NØIR (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;the app&rdquo;) is an offline-first music player for desktop (Windows) and Android. It plays music you already own. This policy explains what the app accesses, stores, and sends. It applies to both the desktop and Android versions of the app.</p>
+
+<p>We built NØIR to be private by default: there are no advertisements, no analytics trackers, and no third-party advertising SDKs. Your listening data is yours.</p>
+
+<h2>1&nbsp;&nbsp;What the app does</h2>
+<p>NØIR builds a library from music on your device and, if you choose to connect it, from a folder in your own Google Drive account. It stores your favourites, playlists, and listening history so the app feels like yours every time you open it. Tracks you download are stored on your device for offline playback.</p>
+
+<h2>2&nbsp;&nbsp;Information stored locally on your device</h2>
+<p>The following data never leaves your device unless you take an action described in section 3:</p>
+<ul>
+  <li>A cache/index of the music in your library (file names, titles, artists, albums).</li>
+  <li>Your favourites, playlists, and recently-played / listening history.</li>
+  <li>App preferences and settings (for example, theme, accent colour, playback options).</li>
+  <li>Songs you choose to download for offline playback.</li>
+  <li>App login and cache data needed for the app to function.</li>
+</ul>
+
+<h2>3&nbsp;&nbsp;Information that leaves your device</h2>
+<p>NØIR makes network requests in exactly two situations, both optional and both under your control:</p>
+<ul>
+  <li><strong>Google Drive (optional, read-only).</strong> If you connect a Google Drive folder as a music source, the app asks Google for read-only access (<code>drive.readonly</code>) to the folder you choose. It streams your tracks so they can be played. It cannot change, delete, or create files. A refresh token is stored in the app&rsquo;s configuration so the app can keep reading without asking you to sign in every time. You can revoke this access at any time from your Google Account (&ldquo;Third-party apps with account access&rdquo;).</li>
+  <li><strong>Account service (optional, for playlist sync).</strong> If you sign in to sync playlists between devices, the app sends your email address and a session token to a small service operated by us. Your playlists are stored there so the same lists can appear on another computer or phone you sign in to.</li>
+</ul>
+
+<h2>4&nbsp;&nbsp;How your information is used</h2>
+<p>Everything the app accesses is used for one purpose: playing and organising <em>your</em> music. We do not use your data for advertising, profiling, or anything unrelated to running the app.</p>
+
+<h2>5&nbsp;&nbsp;Sharing</h2>
+<p>NØIR does not sell, rent, or share your personal information with anyone. The network requests the app makes go only to Google&rsquo;s services (Drive and OAuth, when you connect Drive) and to our own playlist-sync service (when you sign in). No third-party analytics or advertising companies receive any data.</p>
+
+<h2>6&nbsp;&nbsp;Data retention and deletion</h2>
+<p>Data stored locally on your device stays there until you remove it:</p>
+<ul>
+  <li>Uninstalling the app (or clearing its data) removes your local library cache, favourites, downloaded songs, and settings.</li>
+  <li>Signing out removes the session used for playlist sync from your device; your playlists in the sync service remain until you delete them.</li>
+  <li>Revoking the app&rsquo;s Google access (via your Google Account page) stops the app from reading your Drive folder.</li>
+</ul>
+
+<h2>7&nbsp;&nbsp;Security</h2>
+<p>All network communication uses encrypted connections (HTTPS). Credentials such as your Google refresh token are stored in the app&rsquo;s private configuration and are never sent to anyone except Google&rsquo;s OAuth service. This is a personal, single-developer app; we store as little as possible and only what is needed to play your music.</p>
+
+<h2>8&nbsp;&nbsp;Children</h2>
+<p>NØIR is not directed at children under 13, and we do not knowingly collect information from children.</p>
+
+<h2>9&nbsp;&nbsp;Changes to this policy</h2>
+<p>If this policy changes we will update this page and the effective date above. Continued use of the app after a change means you accept the updated policy.</p>
+
+<h2>10&nbsp;&nbsp;Contact</h2>
+<p>Questions about this policy or the app:</p>
+<address>
+  <!-- TODO: replace with a real contact address before publishing -->
+  <strong>NØIR Support</strong><br>
+  <a href="mailto:contact@example.com">contact@example.com</a>
+</address>
+
+<p class="updated">This policy is hosted publicly so that Google can verify what this app does with your Google Account data.</p>
+
+</body>
+</html>
